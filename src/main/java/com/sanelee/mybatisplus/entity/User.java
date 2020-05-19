@@ -28,7 +28,7 @@ public class User {
     @Version
     private Integer version;
     private StatusEnum status;
-    @TableLogic
+//    @TableLogic
     private Integer deleted;
 
 }
