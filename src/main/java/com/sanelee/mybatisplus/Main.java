@@ -43,6 +43,8 @@ public class Main {
         autoGenerator.setPackageInfo(packageConfig);
         //配置策略
         StrategyConfig strategyConfig = new StrategyConfig();
+        //生成部份表模板
+//        strategyConfig.setInclude("movie","person");
             //实体类配置Lombok
         strategyConfig.setEntityLombokModel(true);
             //下划线转驼峰
